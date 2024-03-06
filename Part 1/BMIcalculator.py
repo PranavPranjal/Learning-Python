@@ -6,5 +6,5 @@ weight_in_float = float(weight)
 height_in_float = float(height)
 
 bmi = weight_in_float/height_in_float**2
-bmi_in_int = int(bmi)
-print("Your BMI is : " + str(bmi_in_int))
+bmi_int = int(bmi)
+print(f"Your BMI is : {bmi_int}" )
